@@ -8,6 +8,22 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "command": 
+            {
+                "action": "globalSummon"
+            },
+            "keys": "f1"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+plus"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -18,13 +34,6 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
-                "action": "globalSummon"
-            },
-            "keys": "f1"
         },
         {
             "command": 
@@ -40,12 +49,6 @@
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "launchMode": "maximized",
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
-    ],
     "profiles": 
     {
         "defaults": 
@@ -56,7 +59,7 @@
             "elevate": true,
             "font": 
             {
-                "face": "Mononoki Nerd Font",
+                "face": "mononoki NF",
                 "size": 12.0,
                 "weight": "bold"
             },
@@ -78,24 +81,11 @@
                 "name": "Command Prompt"
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "font": 
-                {
-                    "size": 12.0
-                },
+                "colorScheme": "Dracula",
+                "cursorShape": "filledBox",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
+                "icon": "C:\\Users\\ebran\\Documents\\personalization\\icons\\icons8-ubuntu-96.png",
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
@@ -271,18 +261,18 @@
             "yellow": "#ECBE7B"
         },
         {
-            "background": "#1E1F29",
-            "black": "#000000",
+            "background": "#282A36",
+            "black": "#21222C",
             "blue": "#BD93F9",
-            "brightBlack": "#555555",
-            "brightBlue": "#BD93F9",
-            "brightCyan": "#8BE9FD",
-            "brightGreen": "#50FA7B",
-            "brightPurple": "#FF79C6",
-            "brightRed": "#FF5555",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
             "brightWhite": "#FFFFFF",
-            "brightYellow": "#F1FA8C",
-            "cursorColor": "#BBBBBB",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#F8F8F2",
             "cyan": "#8BE9FD",
             "foreground": "#F8F8F2",
             "green": "#50FA7B",
@@ -290,7 +280,7 @@
             "purple": "#FF79C6",
             "red": "#FF5555",
             "selectionBackground": "#44475A",
-            "white": "#BBBBBB",
+            "white": "#F8F8F2",
             "yellow": "#F1FA8C"
         },
         {
@@ -733,50 +723,6 @@
     ],
     "startOnUserLogin": false,
     "theme": "system",
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ],
+    "themes": [],
     "useAcrylicInTabRow": true
 }
