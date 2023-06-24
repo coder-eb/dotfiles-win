@@ -10,18 +10,18 @@
         {
             "command": 
             {
-                "action": "globalSummon"
-            },
-            "keys": "f1"
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
                 "split": "down",
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+plus"
+        },
+        {
+            "command": 
+            {
+                "action": "globalSummon"
+            },
+            "keys": "f1"
         },
         {
             "command": "paste",
@@ -49,6 +49,12 @@
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "launchMode": "maximized",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -59,7 +65,7 @@
             "elevate": true,
             "font": 
             {
-                "face": "mononoki NF",
+                "face": "Mononoki Nerd Font",
                 "size": 12.0,
                 "weight": "bold"
             },
@@ -85,7 +91,6 @@
                 "cursorShape": "filledBox",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
-                "icon": "C:\\Users\\ebran\\Documents\\personalization\\icons\\icons8-ubuntu-96.png",
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
@@ -723,6 +728,50 @@
     ],
     "startOnUserLogin": false,
     "theme": "system",
-    "themes": [],
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ],
     "useAcrylicInTabRow": true
 }
